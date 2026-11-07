@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Kamara Mohamed Moussa - Développeur Web & Concepteur d'Applications (BTS IDA). Spécialiste PHP, MySQL, JavaScript. Disponible pour un stage en Côte d'Ivoire.">
+  <meta name="keywords" content="Kamara Mohamed Moussa, Développeur Web, PHP, MySQL, JavaScript, Portfolio, Stage, Abidjan, Côte d'Ivoire, BTS IDA">
+  <meta name="author" content="Kamara Mohamed Moussa">
+  
+  <!-- Open Graph / Meta pour réseaux sociaux -->
+  <meta property="og:title" content="Kamara Mohamed Moussa | Développeur Web">
+  <meta property="og:description" content="Portfolio professionnel de Kamara Mohamed Moussa - Développeur Web PHP / MySQL / JavaScript. Disponible pour un stage de fin de formation.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/profile.png">
+
+  <title>Kamara Mohamed Moussa | Développeur Web — Portfolio</title>
+  
+  <!-- Polices Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Feuille de styles principale -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="site-shell">
+    
+    <!-- ============================================================== -->
+    <!-- EN-TÊTE / HEADER NAVIGATION                                    -->
+    <!-- ============================================================== -->
+    <header class="header" id="header">
+      <a class="brand" href="#accueil" aria-label="Kamara Mohamed Moussa Accueil">
+        <span class="brand-text">KMM</span><span class="brand-dot">.</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Ouvrir le menu de navigation" aria-expanded="false" aria-controls="main-nav">
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+      </button>
+
+      <nav class="nav" id="main-nav" aria-label="Navigation principale">
+        <a class="nav-link active" href="#accueil">Accueil</a>
+        <a class="nav-link" href="#apropos">À propos</a>
+        <a class="nav-link" href="#parcours">Formation</a>
+        <a class="nav-link" href="#competences">Compétences</a>
+        <a class="nav-link" href="#projets">Projets</a>
+        <a class="nav-link" href="#vision">Vision</a>
+        <div class="nav-actions">
+          <a class="nav-contact-btn" href="#contact">Me contacter</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      
+      <!-- ============================================================ -->
+      <!-- SECTION HERO (ACCUEIL)                                       -->
+      <!-- ============================================================ -->
+      <section class="hero" id="accueil">
+        <div class="hero-copy reveal">
+          <div class="status-badge">
+            <span class="pulse-dot"></span>
+            <span>Disponible pour un stage de fin de formation</span>
+          </div>
+
+          <h1 class="hero-title">
+            <span class="hero-greeting">Bonjour, je suis</span>
+            Kamara<br>
+            <strong class="highlight-text">Mohamed Moussa</strong>
+          </h1>
+
+          <p class="hero-role">
+            <span class="badge-role">Développeur Web</span>
+            <span class="badge-sub">BTS Informatique &amp; Dév. d'Applications</span>
+          </p>
+
+          <p class="hero-intro">
+            Passionné par la conception de solutions logicielles et d'applications web fiables, 
+            performantes et orientées besoins métier. Spécialisé en architectures backend 
+            <strong>PHP / MySQL</strong> et interfaces dynamiques <strong>JavaScript</strong>.
+          </p>
+
+          <!-- Badges de synthèse rapide -->
+          <div class="hero-meta-pills">
+            <span class="meta-pill">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              Bingerville, Abidjan
+            </span>
+            <span class="meta-pill">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+              ISNT Plateau (2024–2026)
+            </span>
+            <span class="meta-pill">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              Disponibilité immédiate
+            </span>
+          </div>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projets">
+              <span>Voir mes projets</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </a>
+            
+            <a class="button button-secondary" href="assets/docs/CV_Kamara_Mohamed_Moussa.docx" download="CV_Kamara_Mohamed_Moussa.docx" title="Télécharger le CV au format DOCX">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              <span>Télécharger mon CV</span>
+            </a>
+
+            <a class="button button-whatsapp" href="https://wa.me/2250160161432?text=Bonjour%20Mohamed,%20j'ai%20consult%C3%A9%20votre%20portfolio%20et%20je%20souhaite%20%C3%A9changer%20avec%20vous." target="_blank" rel="noopener noreferrer" title="Contacter directement sur WhatsApp">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+              <span>WhatsApp</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Visuel Hero avec photo & cartes flottantes -->
+        <div class="hero-visual reveal">
+          <div class="visual-wrapper">
+            <div class="photo-accent-circle"></div>
+            <div class="photo-accent-grid"></div>
+            
+            <div class="photo-frame">
+              <img src="assets/images/profile.png" alt="Portrait de Kamara Mohamed Moussa" class="profile-photo" loading="eager">
+            </div>
+
+            <!-- Badge flottant 1 : Disponibilité -->
+            <div class="floating-badge badge-availability">
+              <div class="badge-icon-wrap">
+                <span class="status-dot-active"></span>
+              </div>
+              <div class="badge-text-wrap">
+                <strong>En recherche active</strong>
+                <small>Stage fin de formation IDA</small>
+              </div>
+            </div>
+
+            <!-- Badge flottant 2 : Expertise -->
+            <div class="floating-badge badge-tech">
+              <span class="badge-pill-tag">Stack</span>
+              <div class="badge-text-wrap">
+                <strong>PHP · MySQL · JS</strong>
+                <small>Web &amp; Logiciels de gestion</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================ -->
+      <!-- SECTION 01 — À PROPOS                                         -->
+      <!-- ============================================================ -->
+      <section class="about section" id="apropos">
+        <div class="section-heading reveal">
+          <p class="section-kicker">01 — Profil Professionnel</p>
+          <h2 class="section-title">
+            Un développeur rigoureux,<br>
+            <span>orienté solutions et résultats.</span>
+          </h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-lead-col reveal">
+            <p class="about-lead">
+              Récemment diplômé du <strong>BTS Informatique et Développement d'Applications (IDA)</strong>, 
+              j'ai développé un socle solide alliant maîtrise technique, logique algorithmique 
+              et vision fonctionnelle des applications.
+            </p>
+            <p class="about-subtext">
+              Mon parcours m'a permis d'appréhender le cycle complet d'un projet informatique : 
+              de l'analyse des besoins et la modélisation relationnelle (Merise) jusqu'à la programmation 
+              backend, la sécurisation des bases de données et la création d'interfaces utilisateur intuitives.
+            </p>
+
+            <!-- Statistiques / Chiffres clés -->
+            <div class="stats-row">
+              <div class="stat-item">
+                <strong class="stat-num">02+</strong>
+                <span class="stat-label">Années de formation<br>technique intensive</span>
+              </div>
+              <div class="stat-item">
+                <strong class="stat-num">03</strong>
+                <span class="stat-label">Projets concrets<br>d'envergure réalisés</span>
+              </div>
+              <div class="stat-item">
+                <strong class="stat-num">100%</strong>
+                <span class="stat-label">Engagement, autonomie<br>&amp; rigueur</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-cards-col reveal">
+            <!-- Cartes des atouts & qualités -->
+            <div class="qualities-grid">
+              <div class="quality-card">
+                <div class="quality-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+                </div>
+                <h3>Motivé &amp; Sérieux</h3>
+                <p>Grande capacité d'apprentissage, ponctualité et investissement total dans chaque mission confiée.</p>
+              </div>
+
+              <div class="quality-card">
+                <div class="quality-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                </div>
+                <h3>Esprit d'équipe</h3>
+                <p>Communication fluide, écoute active et volonté d'avancer collectivement sur des défis techniques.</p>
+              </div>
+
+              <div class="quality-card">
+                <div class="quality-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+                </div>
+                <h3>Autonome &amp; Organisé</h3>
+                <p>Capacité à rechercher des solutions, structurer son code proprement et respecter les bonnes pratiques.</p>
+              </div>
+
+              <div class="quality-card">
+                <div class="quality-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                </div>
+                <h3>Curieux &amp; Proactif</h3>
+                <p>Veille constante sur l'écosystème web, exploration de nouvelles technologies et soif de progression.</p>
+              </div>
+            </div>
+
+            <!-- Langues & Intérêts -->
+            <div class="extras-card">
+              <div class="extra-block">
+                <h4>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                  Langues
+                </h4>
+                <div class="pill-tags">
+                  <span class="pill-tag"><strong>Français :</strong> Courant (langue de travail)</span>
+                  <span class="pill-tag"><strong>Anglais :</strong> Notions techniques</span>
+                </div>
+              </div>
+
+              <div class="extra-block">
+                <h4>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>
+                  Centres d'intérêt
+                </h4>
+                <div class="pill-tags">
+                  <span class="pill-tag">⚽ Football (Esprit de cohésion &amp; endurance)</span>
+                  <span class="pill-tag">🎵 Musique (Créativité &amp; concentration)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================ -->
+      <!-- SECTION 02 — FORMATION & PARCOURS (TIMELINE)                 -->
+      <!-- ============================================================ -->
+      <section class="education section" id="parcours">
+        <div class="section-heading reveal">
+          <p class="section-kicker">02 — Parcours Académique</p>
+          <h2 class="section-title">
+            Une formation rigoureuse<br>
+            <span>pour bâtir des bases solides.</span>
+          </h2>
+        </div>
+
+        <div class="timeline-container reveal">
+          
+          <!-- Formation 1 -->
+          <article class="timeline-item">
+            <div class="timeline-marker">
+              <span class="timeline-circle"></span>
+              <span class="timeline-line"></span>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-period">2024 — 2026</span>
+                <span class="timeline-badge-status">Diplôme Récent</span>
+              </div>
+              <h3 class="timeline-title">BTS Informatique et Développement d'Applications (IDA)</h3>
+              <p class="timeline-school">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                <strong>Institut Supérieur Nanan Thérèse (ISNT)</strong> — Plateau, Abidjan (Côte d'Ivoire)
+              </p>
+              <p class="timeline-description">
+                Formation approfondie aux technologies logicielles modernes : algorithmique avancée, 
+                programmation web backend (PHP/MySQL) et frontend (JavaScript, HTML, CSS), modélisation des systèmes 
+                d'information (Merise, MCD/MLD/MPD), programmation système (Langage C), et progiciels de gestion (WinDev).
+              </p>
+              <div class="timeline-tags">
+                <span>Développement Web</span>
+                <span>Bases de Données Relationnelles</span>
+                <span>Génie Logiciel</span>
+                <span>Algorithmique &amp; C</span>
+                <span>WinDev</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Formation 2 -->
+          <article class="timeline-item">
+            <div class="timeline-marker">
+              <span class="timeline-circle"></span>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-period">2022 — 2023</span>
+                <span class="timeline-badge-sub">Enseignement Secondaire</span>
+              </div>
+              <h3 class="timeline-title">Baccalauréat Scientifique — Série D</h3>
+              <p class="timeline-school">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                <strong>Collège Les Tchoyas</strong> — Adzopé (Côte d'Ivoire)
+              </p>
+              <p class="timeline-description">
+                Parcours scientifique renforçant les aptitudes analytiques, la logique mathématique, 
+                la rigueur de raisonnement et la capacité de résolution méthodique de problèmes complexes.
+              </p>
+              <div class="timeline-tags">
+                <span>Mathématiques</span>
+                <span>Sciences Physiques</span>
+                <span>Raisonnement Logique</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- ============================================================ -->
+      <!-- SECTION 03 — COMPÉTENCES                                     -->
+      <!-- ============================================================ -->
+      <section class="skills section" id="competences">
+        <div class="section-heading reveal">
+          <p class="section-kicker">03 — Boîte à Outils</p>
+          <h2 class="section-title">
+            Mes compétences <span>techniques &amp; logicielles.</span>
+          </h2>
+          <p class="section-sub">Un profil polyvalent, orienté à la fois vers le web moderne, la logique système et les outils de gestion d'entreprise.</p>
+        </div>
+
+        <div class="skills-categories-grid">
+          
+          <!-- Catégorie 1 : Développement Web & BDD -->
+          <div class="skill-category-card reveal">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <div>
+                <span class="category-step">Domaine 01</span>
+                <h3>Développement Web &amp; Données</h3>
+              </div>
+            </div>
+
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-item-info">
+                  <span class="skill-name"><strong>PHP</strong> — Backend &amp; Logique Métier</span>
+                  <span class="skill-badge">Avancé</span>
+                </div>
+                <p class="skill-desc">Architecture dynamique, gestion des sessions, sécurisation des formulaires, intégration base de données.</p>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-item-info">
+                  <span class="skill-name"><strong>MySQL</strong> — Bases de Données</span>
+                  <span class="skill-badge">Avancé</span>
+                </div>
+                <p class="skill-desc">Modélisation relationnelle (Merise), requêtes SQL optimisées, clés primaires/étrangères, intégrité.</p>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-item-info">
+                  <span class="skill-name"><strong>JavaScript</strong> — Front-End Dynamique</span>
+                  <span class="skill-badge">Opérationnel</span>
+                </div>
+                <p class="skill-desc">Interactions dynamiques du DOM, validation de formulaires, requêtes asynchrones, animations fluides.</p>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-item-info">
+                  <span class="skill-name"><strong>HTML5 &amp; CSS3</strong> — Interfaces Modernes</span>
+                  <span class="skill-badge">Maîtrisé</span>
+                </div>
+                <p class="skill-desc">Design responsive (Mobile First, Grid, Flexbox), accessibilité sémantique et intégration soignée.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Catégorie 2 : Programmation Système & Outils Métier -->
+          <div class="skill-category-card reveal">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+              </div>
+              <div>
+                <span class="category-step">Domaine 02</span>
+                <h3>Programmation &amp; Outils Métier</h3>
+              </div>
+            </div>
+
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-item-info">
+                  <span class="skill-name"><strong>Langage C</strong> — Programmation Système</span>
+                  <span class="skill-badge">Fondamentaux</span>
+                </div>
+                <p class="skill-desc">Algorithmique pure, gestion mémoire, structures de données, pointeurs et rigueur d'exécution.</p>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-item-info">
+                  <span class="skill-name"><strong>WinDev</strong> — Développement Applicatif</span>
+                  <span class="skill-badge">Pratique</span>
+                </div>
+                <p class="skill-desc">Conception rapide d'applications de gestion d'entreprise et interfaces homme-machine (IHM).</p>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-item-info">
+                  <span class="skill-name"><strong>Méthode Merise</strong> — Modélisation SI</span>
+                  <span class="skill-badge">Théorie &amp; Cas</span>
+                </div>
+                <p class="skill-desc">Élaboration de Modèles Conceptuels et Logiques de Données (MCD, MLD, MPD) pour applications fiables.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Catégorie 3 : Outils Bureautiques & Données -->
+          <div class="skill-category-card reveal">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+              </div>
+              <div>
+                <span class="category-step">Domaine 03</span>
+                <h3>Bureautique &amp; Gestion RH</h3>
+              </div>
+            </div>
+
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-item-info">
+                  <span class="skill-name"><strong>Microsoft Access</strong> — BDD &amp; Formulaires</span>
+                  <span class="skill-badge">Opérationnel</span>
+                </div>
+                <p class="skill-desc">Création de tables relationnelles, formulaires de saisie, requêtes de tri et états d'impression.</p>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-item-info">
+                  <span class="skill-name"><strong>Microsoft Excel</strong> — Analyse &amp; Tableaux</span>
+                  <span class="skill-badge">Maîtrisé</span>
+                </div>
+                <p class="skill-desc">Formules de calcul, tableaux de suivi, organisation de jeux de données, automatisation de synthèses.</p>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-item-info">
+                  <span class="skill-name"><strong>Word &amp; PowerPoint</strong> — Documentation</span>
+                  <span class="skill-badge">Maîtrisé</span>
+                </div>
+                <p class="skill-desc">Rédaction de cahiers des charges, manuels utilisateurs, comptes-rendus et présentations de projet.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ============================================================ -->
+      <!-- SECTION 04 — PROJETS RÉALISÉS                                -->
+      <!-- ============================================================ -->
+      <section class="projects section" id="projets">
+        <div class="section-heading projects-heading reveal">
+          <div>
+            <p class="section-kicker">04 — Réalisations</p>
+            <h2 class="section-title">
+              Mes projets <span>concrets.</span>
+            </h2>
+          </div>
+          <p class="projects-lead">
+            Des applications conçues pour répondre à de vrais besoins d'organisation, de réservation et de pilotage d'activité.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          
+          <!-- PROJET 01 : Gestion Hôtel -->
+          <article class="project-card reveal" data-project="hotel">
+            <div class="project-top-bar">
+              <span class="project-index">01</span>
+              <span class="project-chip">Système de Gestion</span>
+            </div>
+
+            <div class="project-mockup mockup-hotel">
+              <div class="mockup-window">
+                <div class="window-bar">
+                  <span class="dot red"></span>
+                  <span class="dot yellow"></span>
+                  <span class="dot green"></span>
+                  <span class="window-url">hotel-reservation.app/dashboard</span>
+                </div>
+                <div class="mockup-screen hotel-screen">
+                  <div class="mockup-sidebar">
+                    <div class="side-item active"></div>
+                    <div class="side-item"></div>
+                    <div class="side-item"></div>
+                  </div>
+                  <div class="mockup-main">
+                    <div class="mockup-header-row">
+                      <div class="mockup-title-bar"></div>
+                      <div class="mockup-btn"></div>
+                    </div>
+                    <div class="mockup-card-grid">
+                      <div class="mini-card mini-card-1">
+                        <span class="card-metric">Chambres Libres</span>
+                        <span class="card-val">18 / 24</span>
+                      </div>
+                      <div class="mini-card mini-card-2">
+                        <span class="card-metric">Check-in du jour</span>
+                        <span class="card-val">07 Arrivées</span>
+                      </div>
+                    </div>
+                    <div class="mockup-table">
+                      <div class="table-line line-head"></div>
+                      <div class="table-line"></div>
+                      <div class="table-line"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-type-tag">Application Web Dynamique</span>
+                <span class="project-year">Projet BTS IDA</span>
+              </div>
+              <h3 class="project-name">Système de Gestion Hôtelière &amp; Réservation</h3>
+              <p class="project-description">
+                Plateforme web complète conçue pour digitaliser l'ensemble du cycle de réservation d'un hôtel : 
+                consultation des disponibilités, espace client sécurisé, gestion administrative des chambres, 
+                et suivi automatisé des arrivées et départs (check-in / check-out).
+              </p>
+              
+              <ul class="project-features-list">
+                <li>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Espace client &amp; système d'authentification sécurisé
+                </li>
+                <li>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Gestion des chambres, catégories et grilles tarifaires
+                </li>
+                <li>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Tableau de bord gérant avec état des flux en temps réel
+                </li>
+              </ul>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">HTML5 / CSS3</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn-project-details" type="button" onclick="openProjectModal('hotel')">
+                  <span>Voir la fiche technique détaillée</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJET 02 : Gestion Personnel -->
+          <article class="project-card reveal" data-project="personnel">
+            <div class="project-top-bar">
+              <span class="project-index">02</span>
+              <span class="project-chip">Système RH &amp; BDD</span>
+            </div>
+
+            <div class="project-mockup mockup-personnel">
+              <div class="mockup-window">
+                <div class="window-bar">
+                  <span class="dot red"></span>
+                  <span class="dot yellow"></span>
+                  <span class="dot green"></span>
+                  <span class="window-url">gestion-rh.entreprise.ci/personnel</span>
+                </div>
+                <div class="mockup-screen rh-screen">
+                  <div class="mockup-sidebar">
+                    <div class="side-item"></div>
+                    <div class="side-item active"></div>
+                    <div class="side-item"></div>
+                  </div>
+                  <div class="mockup-main">
+                    <div class="mockup-header-row">
+                      <div class="mockup-title-bar"></div>
+                      <div class="mockup-btn rh-btn"></div>
+                    </div>
+                    <div class="mockup-card-grid">
+                      <div class="mini-card rh-card-1">
+                        <span class="card-metric">Effectif Total</span>
+                        <span class="card-val">48 Salariés</span>
+                      </div>
+                      <div class="mini-card rh-card-2">
+                        <span class="card-metric">Départements</span>
+                        <span class="card-val">06 Services</span>
+                      </div>
+                    </div>
+                    <div class="mockup-table">
+                      <div class="table-line line-head"></div>
+                      <div class="table-line"></div>
+                      <div class="table-line"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-type-tag">Gestion &amp; Base de Données</span>
+                <span class="project-year">Projet BTS IDA</span>
+              </div>
+              <h3 class="project-name">Système de Gestion du Personnel d'Entreprise</h3>
+              <p class="project-description">
+                Solution de pilotage des Ressources Humaines permettant de centraliser les dossiers employés, 
+                le suivi des contrats, la structure organisationnelle des départements, 
+                ainsi que l'historique administratif de chaque collaborateur.
+              </p>
+
+              <ul class="project-features-list">
+                <li>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Gestion des dossiers RH et fiches individuelles du personnel
+                </li>
+                <li>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Affectation par départements, postes et types de contrats
+                </li>
+                <li>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Requêtes statistiques et états d'édition prêts pour la direction
+                </li>
+              </ul>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Microsoft Access</span>
+                <span class="tech-tag">HTML5 / CSS3</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn-project-details" type="button" onclick="openProjectModal('personnel')">
+                  <span>Voir la fiche technique détaillée</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJET 03 : Espace Communautaire Informatique (Vision) -->
+          <article class="project-card project-card-wide reveal" data-project="communaute">
+            <div class="project-top-bar">
+              <span class="project-index">03</span>
+              <span class="project-chip chip-vision">Vision Entrepreneuriale &amp; Innovation</span>
+            </div>
+
+            <div class="wide-project-content">
+              <div class="wide-project-text">
+                <div class="project-meta">
+                  <span class="project-type-tag">Projet Personnel &amp; Entreprenariat</span>
+                  <span class="project-year">En phase de maturation</span>
+                </div>
+                <h3 class="project-name">Hub &amp; Espace Collaboratif pour Développeurs</h3>
+                <p class="project-description">
+                  Une initiative dédiée à la communauté informatique ivoirienne : créer un écosystème 
+                  de travail et d'entraide où développeurs débutants et confirmés peuvent mutualiser leurs compétences, 
+                  accélérer le développement de leurs projets numériques et bénéficier d'un réseau solide.
+                </p>
+
+                <div class="vision-highlights-grid">
+                  <div class="vision-highlight">
+                    <span class="v-icon">🤝</span>
+                    <div>
+                      <strong>Entraide &amp; Mentorat</strong>
+                      <p>Échanges techniques, code reviews et partage de retours d'expérience concrets.</p>
+                    </div>
+                  </div>
+                  <div class="vision-highlight">
+                    <span class="v-icon">🚀</span>
+                    <div>
+                      <strong>Incubation de Projets</strong>
+                      <p>Cadre structuré pour transformer des idées innovantes en applications prêtes à l'emploi.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="project-tech-tags">
+                  <span class="tech-tag">Concept Web &amp; Physique</span>
+                  <span class="tech-tag">Communauté Tech</span>
+                  <span class="tech-tag">Coworking Informatique</span>
+                  <span class="tech-tag">Côte d'Ivoire</span>
+                </div>
+
+                <div class="project-actions">
+                  <button class="btn-project-details" type="button" onclick="openProjectModal('communaute')">
+                    <span>En savoir plus sur la vision</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- ============================================================ -->
+      <!-- SECTION 05 — VISION & ENGAGEMENT                             -->
+      <!-- ============================================================ -->
+      <section class="vision section reveal" id="vision">
+        <div class="vision-inner">
+          <p class="section-kicker">05 — Ma Vision Professionnelle</p>
+          <blockquote class="vision-quote">
+            « Construire un espace où les informaticiens peuvent se retrouver, 
+            progresser ensemble et transformer des idées ambitieuses en solutions concrètes pour notre société. »
+          </blockquote>
+          <p class="vision-author">
+            — <strong>Kamara Mohamed Moussa</strong>, Développeur Web &amp; Passionné de Tech
+          </p>
+          <div class="vision-badges">
+            <span class="v-badge">Rigueur Technique</span>
+            <span class="v-badge">Solidarité &amp; Partage</span>
+            <span class="v-badge">Impact Positif</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================ -->
+      <!-- SECTION 06 — CONTACT & OPPORTUNITÉS                          -->
+      <!-- ============================================================ -->
+      <section class="contact section" id="contact">
+        <div class="contact-header-block reveal">
+          <p class="section-kicker">06 — Contact</p>
+          <h2 class="section-title">
+            Prêt à collaborer ?<br>
+            <span>Créons de la valeur ensemble.</span>
+          </h2>
+          <p class="contact-intro">
+            Je suis disponible dès maintenant pour intégrer une équipe en tant que <strong>stagiaire en développement web</strong>. 
+            N'hésitez pas à me contacter directement par téléphone, WhatsApp ou email.
+          </p>
+        </div>
+
+        <div class="contact-layout">
+          
+          <!-- Colonne Coordonnées directes -->
+          <div class="contact-cards-column reveal">
+            
+            <!-- Carte Email -->
+            <div class="contact-box">
+              <div class="contact-box-header">
+                <div class="c-icon email-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div>
+                  <small>Adresse Email</small>
+                  <strong>kamaramhdpirate@gmail.com</strong>
+                </div>
+              </div>
+              <div class="contact-box-actions">
+                <a class="c-action-btn primary" href="mailto:kamaramhdpirate@gmail.com" title="Envoyer un email directement">
+                  <span>M'écrire</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </a>
+                <button class="c-action-btn copy-btn" type="button" onclick="copyToClipboard('kamaramhdpirate@gmail.com', 'Email copié dans le presse-papier !')">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  <span>Copier</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Carte Téléphone 1 (WhatsApp) -->
+            <div class="contact-box">
+              <div class="contact-box-header">
+                <div class="c-icon phone-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div>
+                  <small>Téléphone (Principal &amp; WhatsApp)</small>
+                  <strong>01 60 16 14 32</strong>
+                </div>
+              </div>
+              <div class="contact-box-actions">
+                <a class="c-action-btn primary" href="https://wa.me/2250160161432?text=Bonjour%20Mohamed,%20je%20vous%20contacte%20suite%20%C3%A0%20la%20lecture%20de%20votre%20portfolio." target="_blank" rel="noopener noreferrer">
+                  <span>WhatsApp</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </a>
+                <a class="c-action-btn secondary" href="tel:+2250160161432">
+                  <span>Appeler</span>
+                </a>
+                <button class="c-action-btn copy-btn" type="button" onclick="copyToClipboard('0160161432', 'Numéro copié !')">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- Numéro Moov -->
+            <div class="contact-box">
+              <div class="contact-box-header">
+                <div class="c-icon phone-icon-sec">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div>
+                  <small>Numéro Moov</small>
+                  <strong>07 49 22 88 91</strong>
+                </div>
+              </div>
+              <div class="contact-box-actions">
+                <a class="c-action-btn primary" href="tel:+2250749228891">
+                  <span>Appeler</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </a>
+                <button class="c-action-btn copy-btn" type="button" onclick="copyToClipboard('0749228891', 'Numéro copié !')">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  <span>Copier</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Localisation -->
+            <div class="contact-location-box">
+              <div class="loc-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div>
+                <small>Localisation géographique</small>
+                <strong>Bingerville, Abidjan — Côte d'Ivoire</strong>
+                <p>Mobilité sur Abidjan et ouvert au télétravail / hybride</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Colonne Formulaire interactif -->
+          <div class="contact-form-column reveal">
+            <form class="contact-form" id="contact-form">
+              <h3>Envoyer un message direct</h3>
+              <p class="form-subtext">Remplissez ce formulaire et je vous répondrai dans les plus brefs délais.</p>
+
+              <div class="form-group">
+                <label for="form-name">Votre nom complet *</label>
+                <input type="text" id="form-name" name="name" placeholder="Ex: Jean Kouassi" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email">Votre adresse email *</label>
+                <input type="email" id="form-email" name="email" placeholder="nom@entreprise.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject">Sujet de votre message</label>
+                <select id="form-subject" name="subject">
+                  <option value="Offre de stage en développement web">Offre de stage en développement web</option>
+                  <option value="Proposition de projet ou mission">Proposition de projet ou mission</option>
+                  <option value="Prise de contact professionnelle">Prise de contact professionnelle</option>
+                  <option value="Autre demande">Autre demande</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message">Votre message *</label>
+                <textarea id="form-message" name="message" rows="5" placeholder="Bonjour Mohamed, je vous contacte suite à la lecture de votre portfolio..." required></textarea>
+              </div>
+
+              <div class="form-buttons">
+                <button type="submit" class="button button-primary submit-btn">
+                  <span>Envoyer par Email</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </button>
+                <button type="button" class="button button-secondary whatsapp-send-btn" id="btn-send-whatsapp">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                  <span>Envoyer via WhatsApp</span>
+                </button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ============================================================== -->
+    <!-- PIED DE PAGE (FOOTER)                                          -->
+    <!-- ============================================================== -->
+    <footer class="footer">
+      <div class="footer-top">
+        <a class="brand footer-brand" href="#accueil" aria-label="Retour accueil">
+          <span class="brand-text">KMM</span><span class="brand-dot">.</span>
+        </a>
+        <p class="footer-role">Kamara Mohamed Moussa — Développeur Web &amp; Concepteur d'Applications (BTS IDA)</p>
+        <a class="footer-back-to-top" href="#accueil">
+          <span>Haut de page</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+        </a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> Kamara Mohamed Moussa. Tous droits réservés.</p>
+        <div class="footer-links">
+          <a href="#apropos">À propos</a>
+          <a href="#parcours">Formation</a>
+          <a href="#competences">Compétences</a>
+          <a href="#projets">Projets</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- ============================================================== -->
+  <!-- MODAL DE DÉTAILS DE PROJET                                     -->
+  <!-- ============================================================== -->
+  <div class="modal-overlay" id="project-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button class="modal-close" type="button" aria-label="Fermer la fenêtre" onclick="closeProjectModal()">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+
+      <div class="modal-content" id="modal-dynamic-content">
+        <!-- Rempli dynamiquement en JavaScript selon le projet sélectionné -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast de notification (ex: copie presse-papier) -->
+  <div class="toast-notification" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- Script JavaScript principal -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
